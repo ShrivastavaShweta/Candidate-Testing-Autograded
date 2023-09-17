@@ -36,13 +36,14 @@ function gradeQuiz(candidateAnswers) {
       console.log("Correctomundo!")
     } else {
       console.log("That's not quite right! Try again?")
-
+    }
 
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
 
 
   return grade;
 }
+
 
 function runProgram() {
   askForName();
@@ -63,4 +64,4 @@ module.exports = {
   candidateAnswers: candidateAnswers,
   gradeQuiz: gradeQuiz,
   runProgram: runProgram
-};
+}
